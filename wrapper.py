@@ -1,7 +1,7 @@
 from classifier import ParallelClassifier
 
 
-class WrapperFeatureSelection:
+class WrapperFeatureSelection(object):
     def __init__(self):
         # raise NotImplementedError('Need to override this method')
         pass

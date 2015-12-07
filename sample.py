@@ -4,7 +4,7 @@ import numpy as np
 import features
 
 
-class CDConstructor:
+class CDConstructor(object):
     """
     A Classification Dataset Constructor.
 

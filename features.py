@@ -2,7 +2,7 @@ import networkx as nx
 import numpy as np
 
 
-class FeatureConstructor:
+class FeatureConstructor(object):
     """
     A feature constructor.
 

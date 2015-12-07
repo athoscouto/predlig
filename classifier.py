@@ -3,7 +3,7 @@ import multiprocessing
 from sklearn import svm, tree, neighbors, naive_bayes, ensemble, neural_network
 
 
-class ParallelClassifier:
+class ParallelClassifier(object):
     """
     A machine learning classifier class.
     It stores the kind of classifier to be used with it parameters and the metric that will be

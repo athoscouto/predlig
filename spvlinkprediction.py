@@ -2,7 +2,7 @@ import numpy as np
 from classifier import ParallelClassifier
 
 
-class SupervisedLinkPrediction:
+class SupervisedLinkPrediction(object):
     """
     A supervised learning link predictor.
     This class builds a classifier model based on the classification dataset provider, and uses this model to predict the existence
