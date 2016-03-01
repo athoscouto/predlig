@@ -11,3 +11,8 @@ The framework should allow us to:
 4. Experiment and choose of the classification algorithms used on the enhanced dataset.
 5. Choose and configure of one feature selection strategies.
 6. Apply of the feature selection strategy in a wrapper approach for each classification algorithm using K-fold crossed validation.
+
+
+# Requirements
+
+To run PredLig

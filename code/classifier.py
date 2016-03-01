@@ -1,6 +1,5 @@
-import sklearn
 import multiprocessing
-from sklearn import svm, tree, neighbors, naive_bayes, ensemble, neural_network
+from sklearn import svm, tree, neighbors, naive_bayes, ensemble, neural_network, metrics
 
 
 class ParallelClassifier(object):
@@ -29,11 +28,11 @@ class ParallelClassifier(object):
         }
         self.metric = metric
         self.metrics = {
-            "accuracy": sklearn.metrics.accuracy_score,
-            "precision": sklearn.metrics.precision_score,
-            "recall": sklearn.metrics.recall_score,
-            "f1": sklearn.metrics.f1_score,
-            "roc_auc": sklearn.metrics.roc_auc_score,
+            "accuracy": metrics.accuracy_score,
+            "precision": metrics.precision_score,
+            "recall": metrics.recall_score,
+            "f1": metrics.f1_score,
+            "roc_auc": metrics.roc_auc_score,
         }
 
     def set_classifier(self, classifier, classifier_params, metric):
