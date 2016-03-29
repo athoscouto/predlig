@@ -15,4 +15,4 @@ The framework should allow us to:
 
 # Requirements
 
-To run PredLig
+To run PredLig, beside the applications listed in the `requirements.txt`, you must install the bleeding edge version of Scikit Learn. In order to do that just follow the instructions listed [here](http://scikit-learn.org/dev/developers/advanced_installation.html#bleeding-edge).
