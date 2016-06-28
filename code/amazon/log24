@@ -1,0 +1,22 @@
+Dataset Amazon
+Metric: precision
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP;1.000000/[0];0.996740/[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14];1.000000/[0]
+Metric: f1
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP;0.972838/[9, 10, 13];0.959102/[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14];0.972838/[9, 10, 13]
+Metric: roc_auc
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP;0.973200/[9, 10, 13];0.960500/[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14];0.973200/[9, 10, 13]
+
+Dataset Amazon
+Metric: precision
+Classifier/Strategy;ES1;ES2;ES3;ES4
+MLP;0.990740903189/[0, 1, 4, 5, 6, 9, 10, 11, 13];0.995891022605/[1, 4, 5, 8, 11];1.0/[4, 6, 10, 13];0.981936864142/[0, 3, 5, 6, 7, 8, 9, 13]
+Metric: f1
+Classifier/Strategy;ES1;ES2;ES3;ES4
+MLP;0.931716852749/[0, 1, 6, 7, 9, 10, 11, 12, 13];0.97326146223/[1, 4, 9];0.961930613839/[1, 2, 3, 5, 7, 9, 11, 13];0.969202262952/[1, 3, 4, 6, 7, 9, 10]
+Metric: roc_auc
+Classifier/Strategy;ES1;ES2;ES3;ES4
+MLP;0.9678/[1, 4, 8, 11];0.9717/[0, 1, 3, 6, 7, 9, 13];0.9719/[0, 6, 7, 9, 13];0.9679/[0, 1, 5, 6, 7, 9, 13]
+

@@ -1,0 +1,30 @@
+We have to run 3 metrics.
+ok!
+ok!
+ok!
+Dataset Microsoft
+Metric: precision
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP;0.985203/[4];0.856119/[0, 1, 3, 4, 5, 7, 8, 9, 11, 12, 13, 14];0.985203/[0]
+Metric: f1
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP;0.693793/[13, 6];0.683699/[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13];0.693793/[13, 6]
+Metric: roc_auc
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP;0.751100/[0, 9, 11, 13, 1];0.749200/[0, 1, 3, 6, 10, 11];0.747800/[0, 1, 4, 8, 9, 13]
+
+We have to run 3 metrics.
+ok!
+ok!
+ok!
+Dataset Microsoft
+Metric: precision
+Classifier/Strategy;ES1;ES2;ES3;ES4
+MLP;0.961503602169/[0, 4, 10, 11];0.937462918712/[0, 3, 4, 7, 10, 11, 13, 14];0.771114316196/[0, 1, 2, 8, 9, 11];0.902718456977/[0, 3, 4, 6, 8, 9, 10, 11, 13]
+Metric: f1
+Classifier/Strategy;ES1;ES2;ES3;ES4
+MLP;0.717451110233/[0, 3, 4, 7, 11, 13];0.741971168392/[0, 1, 7, 9, 11];0.719964394577/[3, 4, 8, 11, 13];0.72915198291/[1, 3, 7, 8, 11, 13]
+Metric: roc_auc
+Classifier/Strategy;ES1;ES2;ES3;ES4
+MLP;0.7357/[0, 1, 3, 4, 7, 8, 10, 11, 13];0.7496/[1, 6, 7, 9, 10, 11];0.7168/[3, 4, 5, 7, 11];0.7215/[0, 1, 3, 4, 5, 8, 10, 11, 13]
+
