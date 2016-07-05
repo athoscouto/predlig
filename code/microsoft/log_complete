@@ -1,0 +1,37 @@
+Dataset Microsoft
+Metric: precision
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP(4): 0.4
+MLP(6): 0.494015959754
+MLP(8): 0.1
+MLP(10): 0.25
+MLP(12): 0.511697140178
+MLP(24): 0.4
+MLP((8, 10)): 0.4
+MLP((16, 12)): 0.3
+MLP((24, 20, 16)): 0.05
+MLP((20, 24, 16)): 0.35
+Metric: f1
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP(4): 0.533333333333
+MLP(6): 0.582397063562
+MLP(8): 0.000399201596806
+MLP(10): 0.333333333333
+MLP(12): 0.408442838397
+MLP(24): 0.533333333333
+MLP((8, 10)): 0.533333333333
+MLP((16, 12)): 0.4
+MLP((24, 20, 16)): 0.0666666666667
+MLP((20, 24, 16)): 0.466666666667
+Metric: roc_auc
+Classifier/Strategy;FFS;BaFE;BiFE
+MLP(4): 0.5
+MLP(6): 0.5291
+MLP(8): 0.5001
+MLP(10): 0.5
+MLP(12): 0.5175
+MLP(24): 0.5
+MLP((8, 10)): 0.5
+MLP((16, 12)): 0.5
+MLP((24, 20, 16)): 0.5
+MLP((20, 24, 16)): 0.5
